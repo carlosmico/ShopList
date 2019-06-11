@@ -1,0 +1,14 @@
+header{
+    background-color:#ffc60b;
+    color: white;
+    padding: 1.5em;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+}
+
+header > i{
+    font-size: 1.5em;
+    margin-right: 0.5em; 
+}
