@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ShopList/static/css/main.ce92a238.chunk.css",
+    "main.css": "/ShopList/static/css/main.3eecf2ca.chunk.css",
     "main.js": "/ShopList/static/js/main.553ea765.chunk.js",
     "main.js.map": "/ShopList/static/js/main.553ea765.chunk.js.map",
     "runtime~main.js": "/ShopList/static/js/runtime~main.2ef69b68.js",
@@ -8,8 +8,8 @@
     "static/js/2.29551437.chunk.js": "/ShopList/static/js/2.29551437.chunk.js",
     "static/js/2.29551437.chunk.js.map": "/ShopList/static/js/2.29551437.chunk.js.map",
     "index.html": "/ShopList/index.html",
-    "precache-manifest.9eea2e6c8a030b0c1080832207c825ed.js": "/ShopList/precache-manifest.9eea2e6c8a030b0c1080832207c825ed.js",
+    "precache-manifest.d0e6abfffc5f5b6bbe441dff9ae6f57f.js": "/ShopList/precache-manifest.d0e6abfffc5f5b6bbe441dff9ae6f57f.js",
     "service-worker.js": "/ShopList/service-worker.js",
-    "static/css/main.ce92a238.chunk.css.map": "/ShopList/static/css/main.ce92a238.chunk.css.map"
+    "static/css/main.3eecf2ca.chunk.css.map": "/ShopList/static/css/main.3eecf2ca.chunk.css.map"
   }
 }
