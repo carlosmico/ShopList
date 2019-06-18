@@ -11,7 +11,7 @@ class ShopList extends React.Component {
     render() {
         return (
             <div className='shopList'>
-                <h2>{this.props.title}</h2>
+                {/* <h2>{this.props.title}</h2> */}
 
                 <input type="text" onKeyUp={this.props.addItem} placeholder="Add item..." />
 
