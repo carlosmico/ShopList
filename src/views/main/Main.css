@@ -1,0 +1,25 @@
+.Main{
+    height: 92vh;
+    background-image: url('../.././img/supermarket.jpg');
+    background-size: cover;
+}
+
+.Main>div:first-child{
+    height: 100%;
+    width: 100%;
+    background-color: #0000009c;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Main  .Content{
+    color: white;
+}
+
+.Main .Content> h1{
+    font-weight: bold;
+    padding: 1em;
+    margin-right: 0.5em;
+}

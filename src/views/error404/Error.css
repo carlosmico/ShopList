@@ -1,0 +1,47 @@
+.Error404{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Error404 > .Content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Error404 > .Content > *{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Error404 > .Content > .Oops{
+    font-size: 7em;
+    font-weight: bold;
+}
+
+.Error404 > .Content > .Sorry{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.Error404 > .Content > .ErrorCode{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.Error404 > .Content > .LinkHomePage{
+    background-color: #ffc60b;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.Error404 > .Content > .LinkHomePage:hover{
+    background-color: #edb80b;
+}
+

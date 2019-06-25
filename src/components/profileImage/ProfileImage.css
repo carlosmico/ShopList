@@ -1,0 +1,10 @@
+.ProfileImage{
+    cursor: pointer;
+}
+
+.ProfileImage > a > img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}

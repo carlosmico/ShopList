@@ -1,5 +1,6 @@
 const USERS = {
-    LOGIN: "LOGIN"
+    LOGIN: "LOGIN",
+    LOGOUT: "LOGOUT"
 }
 
 export default {USERS}

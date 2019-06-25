@@ -1,0 +1,42 @@
+.Login{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .Content{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 1em;
+    width: 70%;
+    max-width: 500px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login .Content > h3{
+    font-size: 1.5em;
+}
+
+.Login .Content > p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.Login .Content > img{
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Login .Content > img:hover{
+    background-color: lightgray;
+}
