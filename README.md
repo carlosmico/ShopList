@@ -2,8 +2,8 @@
 
 ShopList es una SPA que te permite gestionar tu lista de la compra de forma sencilla y rápida.
 
-!(https://ibb.co/wwHvhHB)
-!(https://ibb.co/Bsnxstp)
+![](https://ibb.co/wwHvhHB)
+![](https://ibb.co/Bsnxstp)
 
 ### Pre-requisitos 📋
 
