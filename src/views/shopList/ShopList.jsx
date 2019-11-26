@@ -12,6 +12,12 @@ import Item from '../../components/item/Item'
 //CSS
 import './ShopList.css'
 
+//ANTD
+import { Steps } from 'antd';
+
+const { Step } = Steps;
+
+
 //GLOBAL VARIABLES
 var database;
 
@@ -78,8 +84,6 @@ class ShopList extends React.Component {
     updateItem = (event, state) => {
         let itemId = event.target.parentNode.parentNode.parentNode.id;
 
-        console.log(state)
-
         database.ref(`${this.state.username}/items/${state.id}`).update({
             title: state.title
         });
@@ -103,6 +107,12 @@ class ShopList extends React.Component {
                 <div className='itemsList'>
                     {this.state.shopList}
                 </div>
+
+                <Steps current={1}>
+                    <Step title="Finished" description="This is a description." />
+                    <Step title="In Progress" subTitle="Left 00:00:08" description="This is a description." />
+                    <Step title="Waiting" description="This is a description." />
+                </Steps>,
             </div>
         );
     }

@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+.shoplist input{
+  all: unset;
+  padding: 10px;
+}
+
 .shopList .container{
   padding: 1em;
   display: flex;
