@@ -5,9 +5,49 @@
     justify-content: center;
 }
 
-.shopList > input{
+.shopList .container{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopList .container span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.shopList .container .fa-check-square{
+  padding-right: 10px;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shopList .container .fas{
+  color: orange;
+}
+
+.shopList .container .far{
+  color: gray;
+}
+
+.shopList .container .fa-check-square span{
+  color: gray;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.shopList .container > input{
     all: unset;
-    width: 70%;
+    /* width: 70%; */
+    min-width: 250px;
     margin-top: 1em;
     margin-bottom: 1em;
     max-width: 200px;
@@ -31,4 +71,6 @@
     flex-direction: column;
     align-items: center;
 }
+
+
 
